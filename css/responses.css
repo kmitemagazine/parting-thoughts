@@ -1,5 +1,14 @@
-
-
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 @import "http://fonts.googleapis.com/css?family=Open+Sans:400,600,700";
 * {
     box-sizing: border-box;
@@ -7,7 +16,7 @@
 body {
     background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png);
     color: #FFFFFF;
-    font-family: "Open Sans";
+    font-family: "San Francisco";
     line-height: 26px;
     width: 800px;
     margin: 0 auto;

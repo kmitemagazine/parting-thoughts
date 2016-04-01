@@ -1,4 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+
 body {
+  font-family: 'Playfair Display';
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png);
 }
