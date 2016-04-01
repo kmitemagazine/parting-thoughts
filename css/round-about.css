@@ -7,14 +7,22 @@ img {
   /*-webkit-filter: hue-rotate(60deg);*/
   -webkit-transition: all 1s;
 }
-
+.logo {
+  width: 100%;
+  max-width: 125%;
+}
 .img-center {
 	margin: 0 auto;
   border: 1px solid gold;
   filter: hue-rotate(60deg);
   transition: all 0.3s;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-
+  /*background-color: #292484;
+    background-image: -webkit-linear-gradient(135deg, #292484,#dc4225);
+    background-image: -moz-linear-gradient(135deg, #292484,#dc4225);
+    background-image: -o-linear-gradient(135deg, #292484,#dc4225);
+    background-image: linear-gradient(135deg, #292484,#dc4225);
+    opacity: 0.7;*/
 
 }
 .img-center:hover {
