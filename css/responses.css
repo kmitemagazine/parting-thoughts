@@ -1,19 +1,33 @@
 
-/*background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png);*/
 
 @import "http://fonts.googleapis.com/css?family=Open+Sans:400,600,700";
 * {
     box-sizing: border-box;
 }
 body {
-    background: none repeat scroll 0 0 #fff;
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png);
     color: #FFFFFF;
     font-family: "Open Sans";
     line-height: 26px;
-    width: 400px;
+    width: 800px;
     margin: 0 auto;
     overflow-X: hidden;
     position: relative;
+}
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  body {
+    width: 100%;
+  }
+}
+.messages-wrapper {
+  background: none repeat scroll 0 0 #fff;
+  z-index: 2;
+}
+.footer {
+  text-decoration: none;
+  text-align: center;
+  color: gray;
 }
 .left {
   position: absolute;
@@ -55,10 +69,9 @@ header {
   white-space: nowrap;
 
 }
-.contact-name {
+header h2, .contact-name {
   font-weight: bold;
   color: #111111;
-  font-size: 20px;
 }
 .messages-wrapper {
   padding-top: 10px;

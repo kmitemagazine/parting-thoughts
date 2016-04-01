@@ -3,29 +3,32 @@ body {
     background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png);
 }
 
+img {
+  /*-webkit-filter: hue-rotate(60deg);*/
+  -webkit-transition: all 1s;
+}
+
 .img-center {
 	margin: 0 auto;
   border: 1px solid gold;
   filter: hue-rotate(60deg);
-  transition: filter 0.3s ease;
-  -webkit-filter: hue-rotate(60deg);
+  transition: all 0.3s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
 
 }
 .img-center:hover {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  /*transition-duration: 0.5s ease;*/
-  transition: filter 0.3s ease;
-  -webkit-transition: filter 0.3s ease;
-  -moz-transition: filter 0.3s ease;
-  -ms-transition: filter 0.3s ease;
-  -o-transition: filter 0.3s ease;
+  /*-webkit-filter: blur(5px);*/
+  filter: drop-shadow(5px 5px 20px black);
+  -webkit-filter: drop-shadow(5px 5px 20px black);
+  transition: all 0.3s;
+  /*filter: blur(5px);*/
 }
 .img-center:visited {
   filter: grayscale(100%);
-  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
 }
 
 footer {
-    margin: 50px 0;
+  margin: 50px 0;
 }
