@@ -29,6 +29,11 @@ body {
     width: 100%;
   }
 }
+@media only screen and (max-width: 319px) {
+  .left {
+    display: none;
+  }
+}
 .messages-wrapper {
   background: none repeat scroll 0 0 #fff;
   z-index: 2;
@@ -146,4 +151,8 @@ a:hover {
 a:active {
     text-decoration: none;
     color: inherit;
+}
+.disabled {
+  pointer-events: none;
+  cursor: default;
 }
